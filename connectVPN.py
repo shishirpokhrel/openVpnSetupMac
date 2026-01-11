@@ -15,10 +15,10 @@ from pathlib import Path
 OPENVPN_BIN = "/usr/sbin/openvpn"
 
 # Set your OpenVPN config file path (.ovpn)
-CONFIG_FILE = "/mnt/c/Users/eSewa/shishir.pokhrel__ssl_vpn_config.ovpn"
+CONFIG_FILE = "/mnt/c/Users/eSewa/shishir.pokhrel__ssl_vpn_config.ovpn" #your ovpn file path
 
 # Path to your credentials file with username and static password
-AUTH_FILE = os.path.expanduser("/mnt/c/Users/eSewa/.openvpn-auth")
+AUTH_FILE = os.path.expanduser("/mnt/c/Users/eSewa/.openvpn-auth") #your credentials file 
 # Create this file with:
 # line 1 -> username
 # line 2 -> password
